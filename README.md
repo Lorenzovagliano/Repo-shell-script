@@ -7,7 +7,7 @@
 - Leave the python shell via `exit`
 - Upload the `out.csv` file to cernbox using curl via [this method](https://cernbox.docs.cern.ch/for_developers/api_access/).
 - For the current cernbox folder we're using, for example, you can do:
--      curl -T out.csv -X PUT https://cernbox.cern.ch/remote.php/dav/public-files/3YZE56ZmXPHaeSd/test.csv
+-      curl -T out.csv -X PUT https://cernbox.cern.ch/remote.php/dav/public-files/3uIZHDoCEQ3BPX9/test.csv
 
 You may alter the parameters in line 405:
 
